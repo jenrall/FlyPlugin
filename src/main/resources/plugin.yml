@@ -1,0 +1,22 @@
+name: FlyPlugin
+version: 1.0.0
+main: com.example.fly.FlyPlugin
+api-version: '1.21'
+author: You
+description: Simple fly plugin
+
+commands:
+  fly:
+    description: فعال/غیرفعال کردن پرواز
+    usage: /fly
+    permission: fly.use
+    permission-message: "شما دسترسی به این دستور ندارید."
+  ob:
+    description: همون /fly
+    usage: /ob
+    permission: fly.use
+    permission-message: "شما دسترسی به این دستور ندارید."
+
+permissions:
+  fly.use:
+    default: true
